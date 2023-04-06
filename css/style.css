@@ -1,0 +1,37 @@
+body{
+  background-color: #D6E1F0;
+}
+section{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding-inline: 1.5rem;
+  padding-top: 1.5rem;
+  padding-bottom: 5rem;
+  background-color: aliceblue;
+  border-radius: 2rem;
+  width: 23%;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  border-top: 5rem;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+img{
+  border-radius: 1rem;
+}
+
+h1{
+  padding-top: 1.5rem;
+  font-weight: 900;
+}
+
+p{
+  padding-top: 1.5rem;
+  color: grey;
+}
